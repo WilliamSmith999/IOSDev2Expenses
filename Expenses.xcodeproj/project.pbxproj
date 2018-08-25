@@ -12,6 +12,7 @@
 		6F586FC92130C9BB0033E37E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F586FC72130C9BB0033E37E /* Main.storyboard */; };
 		6F586FCB2130C9BC0033E37E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F586FCA2130C9BC0033E37E /* Assets.xcassets */; };
 		6F586FCE2130C9BC0033E37E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F586FCC2130C9BC0033E37E /* LaunchScreen.storyboard */; };
+		6F586FD82130D1E30033E37E /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F586FD72130D1E30033E37E /* ExpensesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6F586FCA2130C9BC0033E37E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F586FCD2130C9BC0033E37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F586FCF2130C9BC0033E37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F586FD72130D1E30033E37E /* ExpensesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		6F586FC22130C9BB0033E37E /* Expenses */ = {
 			isa = PBXGroup;
 			children = (
+				6F586FD72130D1E30033E37E /* ExpensesViewController.swift */,
 				6F586FC32130C9BB0033E37E /* AppDelegate.swift */,
 				6F586FC52130C9BB0033E37E /* ViewController.swift */,
 				6F586FC72130C9BB0033E37E /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				6F586FC62130C9BB0033E37E /* ViewController.swift in Sources */,
 				6F586FC42130C9BB0033E37E /* AppDelegate.swift in Sources */,
+				6F586FD82130D1E30033E37E /* ExpensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
